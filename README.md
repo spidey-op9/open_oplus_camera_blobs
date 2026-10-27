@@ -6,3 +6,8 @@ commit the output here.
 
 Clone to `vendor/oplus/camera-blobs`. Files over 95 MB are stored as 20 MiB `.partNN` pieces that
 open_oplus_camera's `vendorsetup.sh` joins.
+
+`devices/<device>/odm/` holds the device-specific odm camera configs (the camera configs, the
+feature protobuf and the main sensor's tuning file), patched by open_oplus_camera's
+`tools/odm_patch.py` from the device's stock files and `patches-odm/<device>/`. They are installed by
+open_oplus_camera's `devices/<device>.mk` in place of the stock copies in `vendor/oneplus/<device>`.
