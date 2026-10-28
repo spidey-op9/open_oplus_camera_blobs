@@ -1250,29 +1250,6 @@ android_app_import {
 }
 
 android_app_import {
-    name: "OppoTranslation",
-    owner: "oplus",
-    apk: "proprietary/system_ext/app/OppoTranslation/OppoTranslation.apk",
-    certificate: "platform",
-    dex_preopt: {
-        enabled: false,
-    },
-    system_ext_specific: true,
-}
-
-android_app_import {
-    name: "OcrScanner",
-    owner: "oplus",
-    apk: "proprietary/system_ext/priv-app/OcrScanner/OcrScanner.apk",
-    certificate: "platform",
-    dex_preopt: {
-        enabled: false,
-    },
-    privileged: true,
-    system_ext_specific: true,
-}
-
-android_app_import {
     name: "OplusAppPlatform",
     owner: "oplus",
     apk: "proprietary/system_ext/priv-app/OplusAppPlatform/OplusAppPlatform.apk",

@@ -58,8 +58,6 @@ PRODUCT_PACKAGES += \
     libst_mobile \
     libst_sticker_jni \
     FileEncryption \
-    OppoTranslation \
-    OcrScanner \
     OplusAppPlatform \
     OplusCamera \
     OppoGallery2 \
