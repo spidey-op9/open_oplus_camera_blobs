@@ -687,6 +687,13 @@
 },
 
 {
+  "VendorTag": "com.oplus.feature.breeno.scan",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "0"
+},
+
+{
   "VendorTag": "com.oplus.feature.super.text.support",
   "Type": "Byte",
   "Count": "1",
